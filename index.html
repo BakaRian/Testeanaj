@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ah_fotografa</title>
+    <title>ah_fotografa - Portfólio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contato</a></li>
-                ass="btn">Contact Me</button>
+                </ul>
             </nav>
         </div>
     </header>
@@ -23,8 +23,8 @@
     <main>
         <section class="hero">
             <div class="container">
-                <h2>Adding the memories<br>of every moment</h2>
-                <button class="btn">View All Portfolio</button>
+                <h2>Capturando memórias<br>de cada momento</h2>
+                <button class="btn">Ver Portfólio Completo</button>
             </div>
         </section>
 
@@ -47,78 +47,3 @@
     </main>
 </body>
 </html>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-header h1 a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.btn {
-    background-color: #7b7b7b;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.hero {
-    background: #f4f4f4;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.hero h2 {
-    font-size: 2.5em;
-    color: #333;
-}
-
-/* Gallery Section */
-.gallery {
-    display: flex;
-    gap: 20px;
-    padding: 50px 0;
-    overflow-x: auto; /* Allow horizontal scrolling if needed */
-}
-
-.gallery-item {
-    flex: 0 0 auto; /* Prevent images from shrinking and keep them in a single line */
-    width: 250px; /* Set a fixed width for each item */
-}
-
-.gallery-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
-}
